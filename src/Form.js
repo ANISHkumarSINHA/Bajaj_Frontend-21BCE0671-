@@ -17,7 +17,7 @@ const Form = () => {
       setError('');
 
       // Call backend API
-      const res = await fetch('http://localhost:5000/bfhl', {
+      const res = await fetch('https://bajaj-backend-21bce0671-3.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
