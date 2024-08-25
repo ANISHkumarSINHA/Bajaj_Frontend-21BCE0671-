@@ -1,38 +1,67 @@
 .App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+  margin-right: 10px;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3, h4 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+  display: block; /* Ensures the text area is treated as a block element */
+  margin-left: auto;
+  margin-right: auto; /* Centers the text area horizontally */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block; /* Ensures the button is treated as a block element */
+  margin: 10px auto 0; /* Centers the button and adds some space at the top */
+}
+
+h1 {
+  margin-bottom: 20px;
 }
